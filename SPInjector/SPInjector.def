@@ -1,0 +1,15 @@
+EXPORTS
+    SPInjectorCommandToString
+	SPSetPrivilege
+	SPAllocInjectorContext
+	SPFreeInjectorContext
+	SPInjectThread
+	SPSendInjectorCommand
+	SPIsAlive
+	SPGetTargetProcessId
+	SPCmdQuit
+	SPCmdHello
+	SPCmdLoadPlugin
+	SPCmdUnloadPlugin
+	SPCmdCallPlugin
+			
