@@ -1,0 +1,16 @@
+EXPORTS
+	PlgnGetPluginName
+	PlgnInitPlgnPe
+	PlgnFreePlgnPe
+	PlgnGetPEHeaderSize
+	PlgnGetPEHeader
+	PlgnReadMemory
+	PlgnWriteMemory
+	
+	InitPlgnPe
+	FreePlgnPe
+	GetPEHeaderSize
+	GetPEHeader
+	ReadMemory
+	WriteMemory 
+	

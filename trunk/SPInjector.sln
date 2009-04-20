@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPInjector", "SPInjector\SPInjector.vcproj", "{2F85A947-084C-42F6-ABCA-46B28918602F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPInjector_exe", "SPInjector_exe\SPInjector_exe.vcproj", "{3FF46E66-FF3D-49E0-A47E-B5914764D0E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2F85A947-084C-42F6-ABCA-46B28918602F} = {2F85A947-084C-42F6-ABCA-46B28918602F}
+		{61C14F7A-29D0-41BA-B663-8FE001C6141F} = {61C14F7A-29D0-41BA-B663-8FE001C6141F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlgnPE", "PlgnPE\PlgnPE.vcproj", "{61C14F7A-29D0-41BA-B663-8FE001C6141F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release_final|Win32 = Release_final|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F85A947-084C-42F6-ABCA-46B28918602F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2F85A947-084C-42F6-ABCA-46B28918602F}.Debug|Win32.Build.0 = Debug|Win32
+		{2F85A947-084C-42F6-ABCA-46B28918602F}.Release_final|Win32.ActiveCfg = Release_final|Win32
+		{2F85A947-084C-42F6-ABCA-46B28918602F}.Release_final|Win32.Build.0 = Release_final|Win32
+		{2F85A947-084C-42F6-ABCA-46B28918602F}.Release|Win32.ActiveCfg = Release|Win32
+		{2F85A947-084C-42F6-ABCA-46B28918602F}.Release|Win32.Build.0 = Release|Win32
+		{3FF46E66-FF3D-49E0-A47E-B5914764D0E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FF46E66-FF3D-49E0-A47E-B5914764D0E0}.Debug|Win32.Build.0 = Debug|Win32
+		{3FF46E66-FF3D-49E0-A47E-B5914764D0E0}.Release_final|Win32.ActiveCfg = Release_final|Win32
+		{3FF46E66-FF3D-49E0-A47E-B5914764D0E0}.Release_final|Win32.Build.0 = Release_final|Win32
+		{3FF46E66-FF3D-49E0-A47E-B5914764D0E0}.Release|Win32.ActiveCfg = Release|Win32
+		{3FF46E66-FF3D-49E0-A47E-B5914764D0E0}.Release|Win32.Build.0 = Release|Win32
+		{61C14F7A-29D0-41BA-B663-8FE001C6141F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61C14F7A-29D0-41BA-B663-8FE001C6141F}.Debug|Win32.Build.0 = Debug|Win32
+		{61C14F7A-29D0-41BA-B663-8FE001C6141F}.Release_final|Win32.ActiveCfg = Release_final|Win32
+		{61C14F7A-29D0-41BA-B663-8FE001C6141F}.Release_final|Win32.Build.0 = Release_final|Win32
+		{61C14F7A-29D0-41BA-B663-8FE001C6141F}.Release|Win32.ActiveCfg = Release|Win32
+		{61C14F7A-29D0-41BA-B663-8FE001C6141F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
